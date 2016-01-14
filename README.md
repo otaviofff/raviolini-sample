@@ -4,4 +4,4 @@ This sample API is built on top of [Raviolini Framework](https://github.com/otav
 
 ## Domain
 
-This sample API exposes a single domain object, named ```Dog```. Each object is defined by a simple set of three attributes, namely ```id```, ```name``` and ```neutered```.
+This sample API exposes a single domain object, named ```Dog```. This object is defined by a simple set of three attributes, namely ```id```, ```name``` and ```neutered```.

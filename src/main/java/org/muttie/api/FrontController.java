@@ -1,13 +1,12 @@
 package org.muttie.api;
 
 import org.muttie.domain.Dog;
-import org.raviolini.api.RequestRouter;
+import org.raviolini.api.AbstractController;
 
-public class FrontController {
+public class FrontController extends AbstractController {
 
     public static void main(String[] args) {
-        RequestRouter<Dog> router = new RequestRouter<>();
-        
-        router.route(Dog.class);
+        listenToAssignedPort();
+        addRouter(Dog.class);
     }
 }
